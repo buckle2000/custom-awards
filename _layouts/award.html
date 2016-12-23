@@ -1,0 +1,42 @@
+---
+author:
+subject: 无名氏
+reason: 没有原因
+prize: “无名”奖
+image:
+message:
+---
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>{{page.prize}}</title>
+		<link rel="stylesheet" href="/css/bootstrap_min.css">
+		<script src="/js/bootstrap_min.js"></script>
+		<link rel="stylesheet" href="/css/main.css" />
+	</head>
+	<body>
+		<div class="container ct w4">
+			<div class="jumbotron">
+				<div class="award-header1">
+					<p>因为<b>{{ page.subject }}</b>{{ page.reason }}</p>
+				</div>
+				<div class="award-header2">
+					<p>特此颁发</p>
+				</div>
+				{% if page.image %}
+				<div class="container img-container">
+					<img src="{{ page.image }}" alt="图片" />
+				</div>
+				{% endif %}
+				<h1>{{ page.prize }}</h1>
+				{% if page.message %}
+				<hr />
+				<div class="award-footer">
+					<p>{{ page.message }}</p>
+				</div>
+				{% endif %}
+			</div>
+		</div>
+	</body>
+</html>

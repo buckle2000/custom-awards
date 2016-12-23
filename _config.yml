@@ -1,0 +1,38 @@
+name: 垃圾堆
+
+# Where things are
+collections:
+  awards:
+    output: true
+    permalink: /award/:path/
+
+# Plugins
+# whitelist: []
+# gems:      []
+
+
+# Outputting
+# permalink: /:path/:name
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: awards
+    values:
+      layout: award
+
+# Exclude these files from your production _site
+exclude:
+  - ".gitignore"
+  - "README.md"
+  - "_awards/template.txt"
+  
+sass:
+    sass_dir: _sass
+    style: compressed
+    

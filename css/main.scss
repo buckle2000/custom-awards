@@ -1,0 +1,54 @@
+---
+---
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+*.ct {
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+div {
+	.w4 {
+	    width: 40%;
+	}
+//	.img-container {
+//		height: 100%;
+//		img {
+//		    max-height: 30em;
+//		}
+//	}
+	.award-header1 * {
+	   font-size: xx-large;
+	}
+	.award-header2 * {
+	   font-size: x-large;
+	}
+	.award-footer * {
+	   font-size: large;
+	}
+}
+
+/*img {
+	width: 100%;
+}*/
+
+.award-digest {
+	margin: 32px 0px;
+	> h1, > h1 * {
+		color: darkblue;
+	}
+	> section * {
+		color: blue;
+		margin-bottom: 0px;
+	}
+	> a {
+		color: DodgerBlue;
+	}
+}
+
+.first-indent {
+    padding-left: 1em;
+}

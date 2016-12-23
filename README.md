@@ -26,7 +26,8 @@ author: 颁奖者（可选）
 subject: 获奖者
 reason: 获奖原因
 prize: 奖项名称
-prize_image: 图片
+image: 图片（可选）
 message: 寄语（可选）
+hidden: true/false
 ---
 ```

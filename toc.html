@@ -1,0 +1,13 @@
+---
+title: 奖项列表
+---
+<h1>{{page.title}}</h1>
+
+{% for award in site.awards %}
+	{% unless award.hidden %}
+	<article class="award-digest">
+		<h3><a href="{{ award.url }}">{{ award.prize }}</a></h3>
+		<p class="first-indent">{{ award.subject }}{%if award.author%} ← {{ award.author }}{%endif%}</p>
+	</article>
+	{% endunless  %}
+{% endfor %}
