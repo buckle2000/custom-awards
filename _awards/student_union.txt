@@ -3,5 +3,5 @@ author: buckle2000
 subject: 学生会
 reason: 庞大的人口基数
 prize: 碳排放巨头·奖
-image: /img/notree.png
+image: notree.png
 ---

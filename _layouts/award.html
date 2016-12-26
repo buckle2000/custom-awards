@@ -11,9 +11,9 @@ message:
 	<head>
 		<meta charset="utf-8" />
 		<title>{{page.prize}}</title>
-		<link rel="stylesheet" href="/css/bootstrap_min.css">
-		<script src="/js/bootstrap_min.js"></script>
-		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="{{ site.url }}/css/bootstrap_min.css">
+		<script src="{{ site.url }}/js/bootstrap_min.js"></script>
+		<link rel="stylesheet" href="{{ site.url }}/css/main.css" />
 	</head>
 	<body>
 		<div class="container ct w4">
@@ -26,7 +26,7 @@ message:
 				</div>
 				{% if page.image %}
 				<div class="container img-container">
-					<img src="{{ page.image }}" alt="图片" />
+					<img src="{{ site.url }}/img/{{ page.image }}" alt="图片" />
 				</div>
 				{% endif %}
 				<h1>{{ page.prize }}</h1>

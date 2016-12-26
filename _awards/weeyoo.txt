@@ -3,6 +3,6 @@ author: buckle2000
 subject: weeyoo
 reason: 无可匹敌的喷人能力
 prize: 三好喷子奖
-image: /img/高下立判.png
+image: 高下立判.png
 message: “知识水平高下立判。”
 ---

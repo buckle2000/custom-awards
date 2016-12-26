@@ -1,0 +1,9 @@
+---
+author: buckle2000
+subject: 获奖者
+reason: 获奖原因
+prize: 奖项名称
+image: 图片
+message: 寄语（可选）
+hidden: true
+---

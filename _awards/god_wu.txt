@@ -3,6 +3,6 @@ author: buckle2000
 subject: 吴神
 reason: 卓越的标化成绩
 prize: 线性标化奖
-image: /img/sat.png
+image: sat.png
 message: “我连110都没有”
 ---
