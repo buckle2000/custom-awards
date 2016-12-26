@@ -1,6 +1,6 @@
 ---
 title: 民间颁奖大赛
-permalink: /
+permalink: "/"
 ---
 # HI
 
